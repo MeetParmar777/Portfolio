@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@100;300;400;700&display=swap');
+/* font-family: 'Montserrat'; */
+/* font-family: 'Roboto Slab'; */
+
+.common-heading{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.common-title{
+    font-family: 'Montserrat';
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+button
+{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+h3,p
+{
+    font-family: 'Roboto Slab';
+    font-style: italic;
+    font-size: 1rem;
+    color: rgba(128, 128, 128, 0.582);
+}
+h1
+{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+
+/* header styling */
+header
+{
+    /* height: 120vh; */
+    background: url(../images/header-bg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+header .head
+{
+    padding-top: 21rem;
+    padding-bottom: 12%;
+}
+header .head h2{
+    font-family: 'Roboto Slab';
+}
+header .head a button
+{
+    background-color: #ffc800;
+    transition: 0.3s all;
+}
+header .head a button:hover
+{
+    background-color: #daab02;
+}
+
+/* navbar styling */
+.navbar .container .navbar-collapse .navbar-nav .nav-item .nav-link
+{
+    text-decoration: none;
+    color: white;
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item{
+    list-style: none;
+    margin-left: 2rem;
+    font-family: 'Montserrat';
+    word-spacing: 0.1rem;
+    letter-spacing: 0.08rem;
+    font-weight: 400;
+    color: white;
+    transition: 0.5s all ease;
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item .nav-link:hover
+{
+    color: goldenrod;
+}
+
+/* sevice section styling */
+#services .container i
+{
+    font-size: 3.5rem;
+}
+
+/* portfolio section styling */
+
+.effect
+{
+    position: relative;
+    cursor: pointer;
+}
+.icon{
+    display: none;
+    transition: all .2s;
+    /* display: flex; */
+    justify-content: center;
+}
+.fa-plus
+{
+    position: absolute;
+    top: 130px;
+    /* left: 40%; */
+    color: white;
+    font-size: 3rem;
+    z-index: 2;
+}
+.effect::after
+{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s;
+    /* background-color: blue; */
+}
+.effect:hover::after
+{
+    background-color: rgba(255, 217, 0, 0.875);
+}
+.effect:hover .icon
+{
+    display: flex;
+}
+
+/* about section styling */
+#about .container .row
+{
+    position: relative;
+}
+#about .container .ex-space
+{
+    margin: 5% 0 10% 0;
+}
+#about .container .row .text-box-left
+{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 40%;
+}
+#about .container .row .text-box-right
+{
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 40%;
+}
+#about .container .row .col .last-round
+{
+    height:150px;
+    width:150px;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+} 
+#about .container .row .image
+{
+    position: relative;
+}
+#about .container .row .image svg
+{
+    position: absolute;
+    top: 99%;
+    left: 49.8%;
+    z-index: -1;
+}
+
+/* team section styling */
+.pure-round
+{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(33, 37, 41);
+    border-radius: 50%;
+    padding: 14px;
+    color: white;
+    transition: 0.5s all;
+}
+.pure-round:hover
+{
+    background-color: rgba(33, 37, 41, 0.753);
+}
+
+/* contactUS styling */
+#contactUS
+{
+    /* height: 100vh; */
+    width: 100%;
+    background: url(../images/map-image.png) no-repeat;
+    background-size: cover;
+}
+#contactUS .container .row .col input
+{
+    height: 3.5rem;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto Slab';
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+#contactUS .container .row .col input:focus
+{
+    outline: none;
+    border: 1px solid goldenrod;
+}
+#contactUS .container .row .col input::placeholder
+{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: rgba(33, 37, 41, 0.199);
+}
+#contactUS .container .row .col textarea
+{
+    height: 14rem;
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Roboto Slab';
+    padding: 20px;
+}
+#contactUS .container .row .col textarea:focus
+{
+    outline: none;
+    border: 1px solid goldenrod;
+}
+#contactUS .container .row .col textarea::placeholder
+{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: rgba(33, 37, 41, 0.199);
+}

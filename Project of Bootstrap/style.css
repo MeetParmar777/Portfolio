@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.part
+{
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 20fr 80fr;
+}
+.gender
+{
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 23fr 5fr 5fr 5fr 75fr ;
+}
+.specialization
+{
+    margin-bottom: 10px;
+    display: grid; 
+    grid-template-columns: 20fr 80fr  ;
+}
+.select
+{
+    display: grid;
+    grid-template-columns: 0fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+button
+{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+form
+{
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: burlywood;
+}
+h2
+{
+    color: red;
+    text-decoration: underline;
+}

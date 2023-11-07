@@ -1,0 +1,1057 @@
+/* minimum - 375px or 360px */
+
+@media (max-width : 1350px)
+{
+    #content8 .container3 .sub-container1 .box1 .text33
+    {
+        margin: 0px 100px 0px 0px;
+    }
+}
+
+@media (max-width : 1256px)
+{
+    .x
+    {
+        grid-template-rows: 340px 70px 70px;
+    }
+}
+
+@media (max-width : 1215px)
+{
+    #header .navbar
+    {
+        grid-template-columns: 40fr 60fr;
+    }
+
+    #content8 .container3 .sub-container1 .text31::before
+    {
+        left: 28%;
+    }
+    #content8 .container3 .sub-container1 .text31::after
+    {
+        left: 65%;
+    }
+}
+
+@media (max-width : 1149px)
+{
+    .x
+    {
+        grid-template-rows: 300px 75px 75px;
+
+    }
+    
+    #content4 .main2 .box3
+    {
+        grid-template-rows: 50% 5% 7% 0%;
+    }
+}
+@media (max-width : 1130px)
+{
+    #content4 .main2 .box3 .sub-box3 .sp1
+    {
+        margin-top: 15%;
+    }
+}
+@media (max-width : 1050px)
+{
+    #content4 .text13::before
+    {
+        left: 37%;
+    }
+    #content4 .text13::after
+    {
+        left: 56%
+    }
+    #content4 .main2 .box3 .sub-box3 .sp2
+    {
+        margin-top: 15%;
+    }
+
+    #content5 .text18::before
+    {
+        left: 36%;
+    }
+    #content5 .text18::after
+    {
+        left: 57%;
+    }
+
+    #content7 .text25::before
+    {
+        left: 36%;
+    }
+    #content7 .text25::after
+    {
+        left: 57%;
+    }
+
+    #content8 .container3 .sub-container1 .text31::before
+    {
+        left: 26%;
+    }
+    #content8 .container3 .sub-container1 .text31::after
+    {
+        left: 67%;
+    }
+
+}
+@media (max-width : 1060px)
+{
+    #header .navbar ul li a
+    {
+        font-size: 14px;
+    }
+
+    #content1 .text6::before
+    {
+        left: 36%;
+    }
+    #content1 .text6::after
+    {
+        left: 57%;
+    }
+    .x
+    {
+        grid-template-rows: 260px 45px 90px;
+    }
+}
+@media (max-width : 1024px)
+{
+    #header .navbar
+    {
+        position: static;
+        position: relative;
+    }
+    #header .navbar .list 
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        /* padding: 5%; */
+        /* background-color: blue; */
+        background-color: #232323;
+        display: none;
+    }
+    #header .navbar .list.show
+    {
+        display: block;
+    }
+    #header .navbar .list .list-items
+    {
+        /* display: none; */
+        display: block;
+        /* background-color: brown; */
+        /* color: white !important; */
+        margin: 0% 10%;
+        padding: 2% 0%;
+        border-bottom: 1px solid rgb(99, 97, 97);
+    }
+    #header .navbar .list .list-items a
+    {
+        margin: 0;
+        color: #aaaaaa !important;
+    }
+    #header .navbar .list .sp4
+    {
+        border-bottom: none;
+        margin-bottom: 3%;
+    }
+    #header .navbar .list input
+    {
+        display: block;
+        margin: 0% 10%;
+        padding: 2% 0%;
+        background-color: transparent;
+        border: none;
+        width: 80%;
+        font-size: 1.5rem;
+        color: rgb(194, 191, 191);
+        font-family: 'Montserrat';
+        font-weight: 800; 
+    }
+    #header .navbar .list input::placeholder
+    {
+        color: rgb(207, 200, 200);
+        font-size: 1.5rem;
+        font-style: italic;
+        font-family: 'Montserrat';
+        font-weight: 800; 
+    }
+    #header .navbar .list input:focus
+    {
+        outline: none;
+    }
+    #header .navbar .list a i
+    {
+        display: none;
+    }
+    #header .navbar .to
+    {
+        display: inline-block;
+        color: white;
+        font-size: 2rem;
+        /* background-color: aqua; */
+        text-align: right;
+        margin: 5% 18% 0% 0%;
+        cursor: pointer;
+        /* width: 5%; */
+    }
+    #header .navbar .close
+    {
+        display: none;
+        color: white;
+        font-size: 2rem;
+        /* background-color: aqua; */
+        text-align: right;
+        margin: 5% 15% 0% 0%;
+        cursor: pointer;
+    }
+    #header .textbox  
+    {
+        padding: 12%;
+    }
+
+    #content1 .container .box .sub-box .text7
+    {
+        font-size: 26px;
+    }
+    #content1 .container .box .sub-box .text8
+    {
+        font-size: 14px;
+    }
+    .x
+    {
+        grid-template-rows: 290px 55px 75px;
+    }
+
+    #content4 .main2
+    {
+        height: 640px;
+    }
+    #content4 .main2 .box3
+    {
+        grid-template-rows: 47% 5% 7% 0%;
+    }
+
+    #content5 .main3 .pic1 .box4 
+    {
+        padding: 7% 0px 0px 0px
+    }
+    #content5 .text18::before
+    {
+        left: 36%;
+    }
+    #content5 .text18::after
+    {
+        left: 57%;
+    }
+    #content5 .main3 .pic1 .sub-main1
+    {
+        margin: 8% 5% 0px 5%;
+    }
+    #content5 .main3 .pic1 .box4 .text23_box .text23
+    {
+        margin: 5% 0px 6% 0px;
+    }
+
+    #content6 .pic2
+    {
+        background-size: 150% 100%; 
+    }
+
+    #content8 .container3 .sub-container1 .text31::before
+    {
+        left: 26%;
+    }
+    #content8 .container3 .sub-container1 .text31::after
+    {
+        left: 67%;
+    }
+}
+
+@media (max-width : 994px)
+{
+    #content8 .container3
+    {
+        height: 1200px;
+    }
+    #content8 .container3 .sub-container1
+    {
+        top: 10%;
+    }
+    #content8 .container3 .sub-container1 .text31::before
+    {
+        left: 25%;
+    }
+    #content8 .container3 .sub-container1 .text31::after
+    {
+        left: 68%;
+    }
+    #content8 .container3 .sub-container1 .box1 .text32
+    {
+        width: 85%;
+        /* background-color: antiquewhite; */
+    }
+    #content8 .container3 .sub-container1 .box1 .text33
+    {
+        width: 85%;
+        margin-top: 5%;
+    }
+
+    #content8 .container3 .sub-container1 .box2
+    {
+        margin: 40px 0px 0px 120px;
+    }
+    #content8 .container3 .sub-container1 .box2 .text34
+    {
+        width: 85%;
+    }
+    #content8 .container3 .sub-container1 .box2 .text35
+    {
+        width: 85%;
+        margin-top: 5%;
+    }
+    #content8 .container3 .sub-container1 .box3
+    {
+        margin: 40px 0px 0px 120px;
+    }
+    #content8 .container3 .sub-container1 .box3 .text36
+    {
+        width: 85%;
+    }
+    #content8 .container3 .sub-container1 .box3 .text37
+    {
+        width: 85%;
+        margin-top: 5%;
+    }
+    #content8 .container3 .sub-container1 .box3 .text38
+    {
+        width: 85%;
+        margin-top: 5%;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width : 972px)
+{
+    #content4 .main2 .box3
+    {
+        grid-template-rows: 45% 5% 7% 0%;
+    }
+}
+
+@media (max-width : 887px)
+{
+    #content1 .text6::before
+    {
+        left: 35%;
+    }
+    #content1 .text6::after
+    {
+        left: 58%;
+    }
+    .x
+    {
+        grid-template-rows: 250px 45px 90px;
+    }
+
+    #content4 .main2
+    {
+        height: 580px;
+    }
+    #content4 .main2 .box3
+    {
+        grid-template-rows: 45% 5% 7% 0%;
+    }
+    #content4 .main2 .box3 .sub-box3 .text15
+    {
+        font-size: 20px;
+    }
+
+    #content7 .main .fa-chevron-left
+    {
+        left: 30%;
+    }
+    #content7 .main .fa-chevron-right
+    {
+        right: 30%;
+    }
+
+    #content8 .container3 .sub-container1 .text31::before
+    {
+        left: 23%;
+    }
+    #content8 .container3 .sub-container1 .text31::after
+    {
+        left: 70%;
+    }
+}
+
+@media (max-width : 818px)
+{
+    .x
+    {
+        grid-template-rows: 220px 45px 90px;
+    }
+
+    #content5 .text18::before
+    {
+        left: 34%;
+    }
+    #content5 .text18::after
+    {
+        left: 59%;
+    }
+
+    #content7 .text25::before
+    {
+        left: 34%;
+    }
+    #content7 .text25::after
+    {
+        left: 59%;
+    }
+
+    #content8 .container3 .sub-container1 .text31::before
+    {
+        left: 21%;
+    }
+    #content8 .container3 .sub-container1 .text31::after
+    {
+        left: 72%;
+    }
+}
+
+/* 796px all content change */
+
+@media (max-width : 796px)
+{
+/* ********************** header ********************** */
+    #header .navbar .logo
+    {
+        padding: 25px 0 10px 65px;
+    }
+    #header .navbar .to
+    {
+        margin: 6% 17% 0% 0%;
+    }
+    #header .textbox .text1 
+    {
+        padding-top: 10%;
+    }
+    #header .textbox .text3
+    {
+        font-size: 6rem;
+        margin: -25px 0 0 0;
+    }
+    #header .textbox .text4
+    {
+        font-size: 6rem;
+        margin: -40px 35px 0 0;
+    }
+
+/* ********************** content1 ********************** */
+    #content1 .text6::before
+    {
+        left: 32%;
+    }
+    #content1 .text6::after
+    {
+        left: 61%;
+    }
+    #content1 .container
+    {
+        grid-template-columns: 1fr;
+        padding: 2% 0% 4% 0%;
+    }
+    .x
+    {
+        grid-template-rows: 355px 70px 70px;
+    }
+    #content1 .container .box
+    {
+        padding-left: 25%;
+        padding-right: 15%;
+    }
+    #content1 .container .box .pic1
+    {
+        margin: 0px 0px 0px 5%;
+    }
+    #content1 .container .box .pic2
+    {
+        margin: 0px 0px 0px 5%;
+    }
+    #content1 .container .box .pic3
+    {
+        margin: 0px 0px 0px 5%;
+    }
+    #content1 .container .box .sub-box .text7
+    {
+        font-size: 34px;
+    }
+
+/* ******************** content2 ******************** */
+    #content2 .main1
+    {
+        height: 750px;
+        grid-template-columns: 1fr;
+    }
+    #content2 .main1 .box1
+    {
+        background-size: cover;
+        background-position: 0px 48%;
+        border-radius: 0px;
+    }
+    #content2 .main1 .box2 .sub-box2
+    {
+        /* background-color: blueviolet; */
+        margin: 0px 0px 0px 0px;
+        width: 43%;
+        text-align: center;
+        transform: translate(70%, 40%);
+    }
+    #content2 .main1 .box2 .sub-box2 .text10
+    {
+        margin-top: 20px;
+    }
+    #content2 .main1 .box2 .sub-box2 .text11
+    {
+        margin-top: 40px;
+    }
+
+/* ******************** content3 ******************** */
+    #content3
+    {
+        margin-top: 0px;
+    }
+    #content3 .main1
+    {
+        height: 700px;
+        grid-template-columns: 1fr;
+        margin-top: -50px;
+    }
+    #content3 .main1 .box1 
+    {
+        background-size: cover;
+        background-position: 0px 48%;
+        border-radius: 0px;
+    }
+    #content3 .main1 .box2 .sub-box2
+    {
+        margin: 0px 0px 0px 0px;
+        width: 50%;
+        /* background-color: red; */
+        text-align: center;
+        transform: translate(50%, 40%);
+    }
+    #content3 .main1 .box2 .sub-box2 .text9
+    {
+        text-align: center;
+    }
+    #content3 .main1 .box2 .sub-box2 .text10
+    {
+        text-align: center;
+        margin-top: 5%;
+    }
+    #content3 .main1 .box2 .sub-box2 .text11
+    {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+/* ******************** content4 ******************** */
+    #content4
+    {
+        margin-top: 0%;
+    }
+    #content4 .text13::before
+    {
+        left: 35%;
+    }
+    #content4 .text13::after
+    {
+        left: 58%;
+    }
+    #content4 .main2
+    {
+        height: 100%;
+        grid-template-columns: 1fr;
+    }
+    #content4 .main2 .box3
+    {
+        grid-template-rows: 870px 4% 4% 0%;
+        margin: 5% 8% 5% 10%;
+    }
+    #content4 .main2 .box3 .sub-box3 .pic1
+    {
+        height: 100%;
+        width: auto;
+    }
+    #content4 .main2 .box3 .sub-box3 .sp1
+    {
+        margin-top: 0%;
+        margin-bottom: 20%;
+    }
+    #content4 .main2 .box3 .sub-box3 .sp2
+    {
+        margin-top: 0%;
+    }
+
+/* ******************** content5 ******************** */
+    #content5 .main3 .pic1 .box4 .sub-pic1
+    {
+        margin: 0px 0px 2% 40%;
+    }
+    #content5 .main3 .pic1 .sub-main1
+    {
+        grid-template-columns: 1fr;
+    }
+    #content5 .main3 .pic1 .box4 .sub-main1 .sub-box4
+    {
+        text-align: center;
+    }
+    #content5 .main3 .pic1 .box4 .sub-main1 .sub-box4 .text19
+    {
+        text-align: center;
+    }
+    #content5 .main3 .pic1 .box4 .sub-main1 .sub-box4 .sp3
+    {
+        margin-top: 10%;
+    }
+    #content5 .main3 .pic1 .box4 .sub-main1 .sub-box4 .text20_box
+    {
+        grid-template-columns: 1fr;
+    }
+    #content5 .main3 .pic1 .box4 .sub-main1 .sub-box4 .text20_box .text20
+    {
+        margin: 5% 0% 0% 0%;
+    }
+    #content5 .main3 .pic1 .box4 .sub-main1 .sub-box4 .text20_box .text21
+    {
+        margin: 0% 0px 0px 0px;
+        text-align: center;
+    }
+
+/* ******************** content9 ******************** */
+    #content9 .container4
+    {
+        grid-template-columns: 1fr;
+    }
+    #content9 .container4 .box1 .text40
+    {
+        font-size: 30px;
+        width: 25%;
+        margin: 16% 0px 0px 40%;
+    }
+    #content9 .container4 .box1 .text-box
+    {
+        grid-template-columns: 1fr;
+        margin: 4% 0px 0px 7%;
+    }
+    #content9 .container4 .box1 .text-box .sub-box1
+    {
+        text-align: center;
+    }
+    #content9 .container4 .box1 .text-box .sub-box2
+    {
+        text-align: center;
+        margin: -6% 0% 5% 0%;
+    }
+    #content9 .container4 .box1 .sub-main2 .text41
+    {
+        width: 65%;
+    }
+    #content9 .container4 .box1 .sub-main2 .text42
+    {
+        width: 65%;
+    }
+    #content9 .container4 .box1 .sub-main2 .text43
+    {
+        width: 65%;
+    }
+    #content9 .container4 .box1 .sub-main2 .text44
+    {
+        width: 65%;
+    }
+    #content9 .container4 .box1 .sub-main2 .text45
+    {
+        width: 65%;
+        /* background-color: red; */
+    }
+    #content9 .container4 .box1 .sub-main2 .text46
+    {
+        width: 65%;
+    }
+    #content9 .container4 .box2
+    {
+        margin-top: 10%;
+        height: 350px;
+    }
+
+/* ******************** footer ******************** */
+    #footer .main4
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px;
+    }
+    #footer .main4 .box1
+    {
+        margin: 45px 0px 0px 0px;
+        text-align: center;
+    }
+    #footer .main4 .box3
+    {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width : 744px)
+{
+/* ******************** content4 ******************** */
+    #content4 .main2 .box3
+    {
+        grid-template-rows: 820px 4% 4% 0%;
+    }
+}
+@media (max-width : 705px)
+{
+/* ******************** content4 ******************** */
+    #content4 .main2 .box3
+    {
+        grid-template-rows: 750px 4% 4% 0%;
+    }
+}
+
+@media (max-width : 655px)
+{
+/* ******************** content4 ******************** */
+    #content4 .main2 .box3
+    {
+        grid-template-rows: 650px 4% 4% 0%;
+    }
+}
+@media (max-width : 630px)
+{
+    .x
+    {
+        grid-template-rows: 300px 40px 70px;
+    }
+    #content1 .container .box .sub-box
+    {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    #content7 .main .fa-chevron-left
+    {
+        left: 25%;
+    }
+    #content7 .main .fa-chevron-right
+    {
+        right: 25%;
+    }
+
+    #content8 .container3 .sub-container1 .text31::before
+    {
+        left: 15%;
+    }
+    #content8 .container3 .sub-container1 .text31::after
+    {
+        left: 78%;
+    }
+}
+@media (max-width : 560px)
+{
+    .x
+    {
+        grid-template-rows: 250px 40px 70px;
+    }
+    #content1 .text6::before
+    {
+        left: 30%;
+    }
+    #content1 .text6::after
+    {
+        left: 63%;
+    }
+    #content4 .text13::before
+    {
+        left: 31%;
+    }
+    #content4 .text13::after
+    {
+        left: 61%;
+    }
+    #content4 .main2 .box3
+    {
+        grid-template-rows: 580px 4% 4% 0%;
+    }
+    #content5 .text18::before
+    {
+        left: 31%;
+    }
+    #content5 .text18::after
+    {
+        left: 63%;
+    }
+    #content7 .text25::before
+    {
+        left: 31%;
+    }
+    #content7 .text25::after
+    {
+        left: 63%;
+    }
+    #content8 .container3 .sub-container1 .text30
+    {
+        font-size: 36px;
+    }
+    #content8 .container3 .sub-container1 .text31::before
+    {
+        left: 12%;
+    }
+    #content8 .container3 .sub-container1 .text31::after
+    {
+        left: 81%;
+    }
+    #content8 .container3 .sub-container1 .box1
+    {
+        margin: 75px 0px 0px 70px;
+    }
+    #content8 .container3 .sub-container1 .box2
+    {
+        margin: 40px 0px 0px 70px;
+    }
+    #content8 .container3 .sub-container1 .box3
+    {
+        margin: 40px 0px 0px 70px;
+    }
+    #content8 .container3 .sub-container1 .box3 .text39
+    {
+        margin: 100px 80px 80px 0px;
+    }
+}
+@media (max-width : 500px)
+{
+    #header .text1
+    {
+        padding-top: 40%;
+        font-size: 40px;
+    }
+    #header .text3
+    {
+        font-size: 5rem;
+        margin: -20px 0 0 0;
+    }
+    #header .text4
+    {
+        font-size: 5rem;
+        margin: -30px 28px 0 0;
+    }
+    #header .navbar .logo
+    {
+        padding: 15px 0 10px 70px;
+    }
+    #content1 .container .box
+    {
+        padding-left: 28%;
+        padding-right: 30%;
+    }
+    .x
+    {
+        grid-template-rows: 200px 40px 120px;
+    }
+    #content1 .text6::before
+    {
+        left: 28%;
+    }
+    #content1 .text6::after
+    {
+        left: 65%;
+    }
+    #content4 .main2 .box3
+    {
+        grid-template-rows: 500px 4% 4% 0%;
+    }
+
+    #content5 .main3 .pic1 .box4 
+    {
+        padding: 7% 10% 0px 10%;
+    }
+    #content5 .main3 .pic1 .box4 .text17
+    {
+        font-size: 30px;
+    }
+    #content5 .main3 .pic1 .box4 .sub-pic1
+    {
+        margin: 0px 0px 2% 35%;
+    }
+    #content5 .main3 .pic1 .box4 .sub-main1 .sub-box4
+    {
+        padding: 10px 0px;
+    }
+    #content5 .text18::before
+    {
+        left: 25%;
+    }
+    #content5 .text18::after
+    {
+        left: 68%;
+    }
+
+    #content7 .main .fa-chevron-left
+    {
+        left: 20%;
+    }
+    #content7 .main .fa-chevron-right
+    {
+        right: 20%;
+    }
+
+    #content8 .container3 .sub-container1 .text31::before
+    {
+        left: 8%;
+    }
+    #content8 .container3 .sub-container1 .text31::after
+    {
+        left: 85%;
+    }
+}
+@media (max-width : 384px)
+{
+    #header .textbox .text1
+    {
+        padding-top: 50%;
+        font-size: 40px;
+    }
+    #header .textbox .text3
+    {
+        font-size: 5rem;
+        margin: -20px 0 0 0;
+    }
+    #header .textbox .text4
+    {
+        font-size: 5rem;
+        margin: -25px 0px 0 0;
+    }
+    #header .navbar .logo
+    {
+        padding: 15px 0 10px 30px;
+    }
+
+    #content1 .text6::before
+    {
+        left: 25%;
+    }
+    #content1 .text6::after
+    {
+        left: 69%;
+    }
+    #content1 .container .box 
+    {
+        grid-template-rows: 87% 40% 0%;
+        margin: 30px 0px 200px 0px;
+    }
+
+    #content2 .main1 .box2 .sub-box2
+    {
+        margin-top: -30%;
+    }
+
+    #content4 .main2 .box3 
+    {
+        grid-template-rows: 390px 5% 7% 0%;
+    }
+
+    #content5 .main3 .pic1
+    {
+        background-size: cover;
+        background-position: 50% 0% ;
+    }
+    #content5 .main3 .pic1 .box4 .sub-pic1
+    {
+        height: 50px;
+        width: 90px;
+        margin: 0px 0px 2% 34%;
+    }
+    #content5 .text18::before
+    {
+        left: 21%;
+    }
+    #content5 .text18::after
+    {
+        left: 72%;
+    }
+
+    #content6 .pic2
+    {
+        background-position: -15px 0px;
+    }
+
+    #content7 .text25::before
+    {
+        left: 26%;
+    }
+    #content7 .text25::after
+    {
+        left: 68%;
+    }
+    #content7 .main .fa-chevron-left
+    {
+        left: 7%;
+    }
+    #content7 .main .fa-chevron-right
+    {
+        right: 30%;
+    }
+    #content7 .main .col1
+    {
+        padding-left: 0rem;
+    }
+    #content7 .main .col2
+    {
+        padding-left: 0rem;
+    }
+    #content7 .box4
+    {
+        margin-top: 5%;
+    }
+    #content7 .main .sub .text29
+    {
+        margin-top: 10px;
+    }
+    #content8 .container3 .sub-container1 .text30 
+    {
+        font-size: 28px;
+    }
+    #content8 .container3 .sub-container1 .text31
+    {
+        font-size: 12px;
+    }
+    #content8 .container3 .sub-container1 .text31::before
+    {
+        left: 5%;
+    }
+    #content8 .container3 .sub-container1 .text31::after
+    {
+        left: 89%;
+    }
+    #content8 .container3 .sub-container1 .box1
+    {
+        margin: 75px 0px 0px 32px;
+    }
+    #content8 .container3 .sub-container1 .box2
+    {
+        margin: 40px 0px 0px 32px;
+    }
+    #content8 .container3 .sub-container1 .box3
+    {
+        margin: 40px 0px 0px 32px;
+    }
+    #content8 .container3 .sub-container1 .box3 .text39 
+    {
+        margin: 100px 30px 80px 0px;
+    }
+}
