@@ -1,0 +1,125 @@
+@media (max-width : 1200px)
+{
+    #home .container .row .col1{padding: 10% 10%;}
+    #home .container .row .col2{padding: 4% 12%;}
+    /* #about .container .row .col1{width: 50%;} */
+    #about .container .row .col1 .imgbox{width: 70%;}
+
+    #contact .container{padding: 0 5%;}
+}
+
+@media (max-width : 992px)
+{
+    #home .container{padding-top: 15%;}
+
+    #about{margin-top: 25%;}
+    #about .container .row .col .imgbox{height: 60%;}
+    #about .container .row .col2{padding: 10% 5% 10% 5%;}
+    #about .container .row .col2 .intro-box h3{font-size: 2.2rem;}
+    #about .container .row .col2 .intro-box p{font-size: 1.2rem;}
+    #about .container .row .col2 .text-box .row .col1{width: 50%;}
+
+    #portfolio .container{margin: 5% 15%;}
+    #portfolio .container h3{margin-left: 5%;}
+    #portfolio .container .row{justify-content: center;}
+    #portfolio .container .row .col{flex-basis: 90%; margin-bottom: 10%;}
+
+    #contact .container{margin: 5% 10%;}
+    #contact .container .row{padding: 0%;}
+}
+
+@media (max-width : 768px)
+{
+    nav{position: relative;}
+    nav .menu-list ul
+    {
+        width: 100%;
+        background-color: #231F20;
+        display: block; 
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        padding-left: 8%;
+        opacity: 0;
+        transition: .7s ease-in;
+        transform: translate(-100% , 0%);
+    }
+    #home nav .fa-bars{display: block;}
+
+    #home .container .row .col1{padding: 10% 5% 10% 10%;}
+    #home .container .row .col1 h1{font-size: 4rem;}
+    #home .container .row .col1 p{font-size: 2rem;}
+    .btn_style{padding: 20px 40px;font-size: 1rem;}
+
+    #about .container .row .col .imgbox{height: 40%;}
+    #about .container .row .col2{padding: 10% 5% 10% 0%;}
+    #about .container .row .col2 .text-box .row{display: block;}
+    #about .container .row .col2 .text-box .row .col1{width: 100%;}
+    #about .container .row .col2 .text-box .row .col2{width: 100%; padding:10px 20px;}
+    .icons{margin-top: 8%;}
+    .icons a{margin-right: 10%;}
+}
+@media (max-width : 600px)
+{
+    #home .container .row .col1{padding: 10% 5% 10% 10%;}
+    #home .container .row .col1 h1{font-size: 3rem;}
+    #home .container .row .col1 p{font-size: 1.5rem;}
+    .btn_style{padding: 20px 40px;font-size: 0.9rem;}
+
+    #about .container .row .col .imgbox{height: 30%;}
+    #about .container .row .col2 .text-box .row .col1{padding: 10px 0 0 0;}
+    #about .container .row .col2 .text-box .row .col2{padding: 5px 20px;}
+
+    footer .container .row .icons{margin-top: 4%;}
+}
+
+@media (max-width : 500px)
+{
+    .heading .common-heading{font-size: 3rem;}
+
+    #home .container .row .col1 p{font-size: 1.2rem;}
+    .btn_style{padding: 20px 30px;font-size: 0.9rem;}
+
+
+    #about .container .row .col .imgbox{height: 25%;}
+    #about .container .row .col2 .intro-box h3{font-size: 2rem;}
+
+    #portfolio .container h3{font-size: 1.8rem;}
+    #portfolio .container .row .col .hover_text{font-size: 2rem;}
+    #portfolio .container{margin: 10% 13%;}
+
+    #contact .container .row p{font-size: 1.1rem;}
+    #contact .container .row input{font-size: 0.9rem;}
+
+    footer .container .row .icons{margin-top: 7%;}
+}
+
+/* for mobile */
+@media (max-width : 384px)
+{
+    .heading .common-heading{font-size: 2.5rem;}
+
+    #home .container .row .col1{padding: 10% 0% 10% 7%;}
+    #home .container .row .col2{padding: 12% 10%;}
+    #home .container .row .col1 h1{font-size: 2.5rem;}
+    #home .container .row .col1 .second{margin-top: -10px;}
+    #home .container .row .col1 p{font-size: 1.2rem; word-spacing: 0px;}
+    .btn_style{padding: 20px 20px;font-size: 0.8rem;}
+
+    #about .container .row .col .imgbox{height: 20%;}
+    #about .container .row .col2 .intro-box h3{font-size: 1.7rem;}
+    #about .container .row .col2 .intro-box p{font-size: 1rem;}
+    #about .container .row .col2 .text-box .row .col1{font-size: 1rem;}
+    #about .container .row .col2 .text-box .row .col2{font-size: 0.9rem; padding: 5px 0 0 20px;}
+    .icons a{font-size: 1.9rem;}
+
+    #portfolio .container h3{font-size: 1.5rem;}
+    #portfolio .container .row .col p{font-size: 1.1rem;}
+    #portfolio .container .row .col .hover_text{font-size: 1.6rem;}
+
+    #contact .container{margin: 10% 0;}
+    #contact .container .row input{font-size: 0.9rem;}
+
+    footer .container{padding: 5% 15%;}
+    footer .container .row{font-size: 1.1rem;}
+}

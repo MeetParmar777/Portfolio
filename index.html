@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet's Portfolio</title>
+    <!-- fav icon -->
+    <!-- <link rel="icon" href="./images/fav.png"> -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- media query -->
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- font awesome 6.4.2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body onscroll="scroll()">
+
+<!-- header start here -->
+<header id="home">
+    <!-- nav start -->
+    <nav id="navbar">
+        <div class="logo">
+            <img src="./images/logo-dark.jpg" height="70px" class="img">
+        </div>
+        <div class="menu-list">
+            <ul class="list">
+                <a href="#home"><li>Home</li></a>
+                <a href="#about"><li>About</li></a>
+                <a href="#portfolio"><li>Portfolio</li></a>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="toggleMenu()"></i>
+        <i class="fa-solid fa-xmark"></i>
+    </nav>
+    <!-- nav end -->
+    
+    <!-- hero section start -->
+    <div class="container">
+        <div class="row">
+            <div class="col1">
+                <h1>I'm <span>M</span>eet</h1>
+                <h1 class="second">Parmar</h1>
+                <p>Web Designer</p>
+                <a href="./images/Meet Parmar CV.pdf" target="_blank"><button class="btn_style">Download CV</button></a>
+            </div>
+            <div class="col2">
+                <img src="./images/home_meet.jpg" alt="" height="100%" width="100%">
+            </div>
+        </div>
+    </div>
+    <!-- hero section end -->
+</header>
+<!-- header end here -->
+
+
+<!-- about section start here -->
+<section id="about">
+    <div class="heading"><h2 class="common-heading">About Me</h2></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="imgbox">
+                    <img src="./images/about_meet.jpg" alt="net issue" height="100%" width="100%">
+                </div>
+            </div>
+            <div class="col2">
+                <div class="intro-box">
+                    <h3>My Intro</h3>
+                    <p>Myself Meet Parmar, a recent graduate in Bachelor of commerce from Gujarat University. <br> On a mission to transition from Accounting to Front End Development. <br> With a passion for problem-solving and coding.</p>
+                </div>
+
+                <div class="text-box">
+                    <div class="row">
+                        <div class="col1">Date of birth :</div>
+                        <div class="col2">September 06, 2002</div>
+                    </div>
+                    <div class="row">
+                        <div class="col1">Address :</div>
+                        <div class="col2">Sabarmati, Ahmedabad</div>
+                    </div>
+                    <div class="row">
+                        <div class="col1">Degree :</div>
+                        <div class="col2">Bachelor of commerce</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col1">Email :</div>
+                        <div class="col2">manpreetparmarmp@gmail.com</div>
+                    </div>
+                    <div class="row">
+                        <div class="col1">Phone :</div>
+                        <div class="col2">+91 7046420035</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="icons">
+                        <a href="https://www.facebook.com/profile.php?id=100014572512663" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/meet-parmar-b94b8820a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/manpreetparmar02/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- about section end here -->
+
+
+<!-- portfolio section start here -->
+<section id="portfolio">
+    <div class="heading"><h2 class="common-heading">Portfolio</h2></div>
+
+    <div class="container">
+        <h3>My Projects :</h3>
+        <div class="row">
+            <div class="col">
+                <div class="hover_text">Click To View &nbsp; <i class="fa-solid fa-eye fa-beat"></i></div>
+                <a href=""><img src="./images/Grid.png" alt="grid" height="90%" width="100%"></a>
+                <p>Jevelin Restaurant Website Using Grid  </p>
+            </div>
+            <div class="col">
+                <div class="hover_text">Click To View &nbsp; <i class="fa-solid fa-eye fa-beat"></i></div>
+                <a href=""><img src="./images/Flex.png" alt="flex" height="90%" width="100%"></a>
+                <p>Creative Agency Website Using Flex</p>
+            </div>
+            <div class="col">
+                <div class="hover_text">Click To View &nbsp; <i class="fa-solid fa-eye fa-beat"></i></div>
+                <a href=""><img src="./images/Bootstrap.png" alt="bootstrap" height="90%" width="100%"></a>
+                <p>Studio Website Using Bootstrap</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- portfolio section end here -->
+
+
+<!-- contact section start here -->
+<section id="contact">
+    
+    <div class="heading"><h2 class="common-heading">Contact With Me</h2></div>
+    <div class="container">
+        <div class="row">
+            <div class="col1 space">
+                <p>Your Name :</p>
+                <input type="text" id="nm">
+                <span id="nmErr"></span>
+            </div>
+            <div class="col1 ">
+                <p>Phone Number :</p>
+                <input type="text" id="pn">
+                <span id="pnErr"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Email :</p>
+                <input type="email" id="email">
+                <span id="emailErr"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Your Message :</p>
+                <textarea name="" id="txt" cols="30" rows="10" placeholder="Message here..."></textarea>
+                <span id="msgErr"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button onclick="validation()">Send Message</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contact section end here -->
+
+
+<!-- footer start here -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <p>&copy 2023. All rights reserved by Meet Parmar.</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=100014572512663" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/meet-parmar-b94b8820a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/manpreetparmar02/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer end here -->
+
+
+    
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
