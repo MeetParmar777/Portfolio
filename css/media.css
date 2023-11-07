@@ -59,6 +59,7 @@
     .icons{margin-top: 8%;}
     .icons a{margin-right: 10%;}
 }
+
 @media (max-width : 600px)
 {
     #home .container .row .col1{padding: 10% 5% 10% 10%;}
@@ -73,7 +74,7 @@
     footer .container .row .icons{margin-top: 4%;}
 }
 
-@media (max-width : 500px)
+@media (max-width : 500px) 
 {
     .heading .common-heading{font-size: 3rem;}
 
@@ -95,12 +96,12 @@
 }
 
 /* for mobile */
-@media (max-width : 384px)
+@media (max-width : 500px) and (min-width : 200px)
 {
     .heading .common-heading{font-size: 2.5rem;}
 
     #home .container .row .col1{padding: 10% 0% 10% 7%;}
-    #home .container .row .col2{padding: 12% 10%;}
+    #home .container .row .col2{padding: 0% 10% 10% 10%}
     #home .container .row .col1 h1{font-size: 2.5rem;}
     #home .container .row .col1 .second{margin-top: -10px;}
     #home .container .row .col1 p{font-size: 1.2rem; word-spacing: 0px;}
