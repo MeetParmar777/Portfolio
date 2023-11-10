@@ -6,6 +6,11 @@ html
 {
     scroll-behavior: smooth;
 }
+::selection
+{
+    color: crimson;
+    /* background-color: crimson; */
+}
 *{margin: 0;
     font-family: 'Rubik';
     box-sizing: border-box;}

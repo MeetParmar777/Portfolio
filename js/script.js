@@ -121,6 +121,8 @@ function validation()
     phone.value='';
     email.value='';
     msg.value='';
+
+    alert('Thank you..!')
 }
 // form validation script end----------
 
@@ -138,3 +140,4 @@ function toggleMenu()
     ul_tag.classList.toggle('show');
     bars.classList.toggle('fa-xmark');
 }
+
