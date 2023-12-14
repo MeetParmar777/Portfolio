@@ -37,8 +37,8 @@ function scroll()
 bars = document.querySelector('.fa-bars');
 ul_tag = document.querySelector('.list');
 
-console.log(bars);
-console.log(list);
+// console.log(bars);
+// console.log(list);
 
 function toggleMenu()
 {
