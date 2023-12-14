@@ -1,6 +1,6 @@
-// navbar scroll changes script start **************
+// navbar scroll changes script start--------
 navbar = document.getElementById('navbar');
-logo = document.querySelector('.img');
+logo = document.querySelector('.logo');
 list_items = document.querySelectorAll('a > li');
 
 // console.log(list);
@@ -10,8 +10,9 @@ function scroll()
     if(document.documentElement.scrollTop > 80)
     {
         navbar.style.background = 'white';
-        logo.src = '../images/logo-light.jpg';
-
+        // logo.src = '../images/logo-light.jpg';
+        logo.classList.add('logo-light');
+        
         for(m=0; m<list_items.length; m++)
         {
             list_items[m].style.color = 'black';
@@ -20,18 +21,34 @@ function scroll()
     else
     {
         navbar.style.background = '#231F20';
-        logo.src = '../images/logo-dark.jpg';
-
+        // logo.src = '../images/logo-dark.jpg';
+        logo.classList.remove('logo-light');
+        
         for(m=0; m<list_items.length; m++)
         {
             list_items[m].style.color = 'white';
         }
     }
-
+    
 }
-// navbar scroll changes script end------
+// navbar scroll changes script end---------
 
-// form validation script start *******************
+// bars script start----------
+bars = document.querySelector('.fa-bars');
+ul_tag = document.querySelector('.list');
+
+console.log(bars);
+console.log(list);
+
+function toggleMenu()
+{
+    // list.style.opacity = '1';
+    ul_tag.classList.toggle('show');
+    bars.classList.toggle('fa-xmark');
+}
+// bars script end----------
+
+// form validation script start---------
 name1 = document.getElementById('nm');
 phone = document.getElementById('pn');
 email = document.getElementById('email');
@@ -127,17 +144,5 @@ function validation()
 // form validation script end----------
 
 
-// nav bars script start----------
-bars = document.querySelector('.fa-bars');
-ul_tag = document.querySelector('.list');
 
-console.log(bars);
-console.log(list);
-
-function toggleMenu()
-{
-    // list.style.opacity = '1';
-    ul_tag.classList.toggle('show');
-    bars.classList.toggle('fa-xmark');
-}
 
