@@ -58,12 +58,28 @@ nav
     border-bottom: 1px solid rgba(128, 128, 128, 0.574);
     z-index: 999;
 }
-nav .logo
+nav .logo_box
 {
-    /* height: 100%; */
-    width: 15%;
+    height: 100%;
+    width: 25%;
+    /* text-align: end; */
+    /* background-color: red; */
+}
+nav .logo_box .logo
+{
+    height: 80px;
+    width: 80px;
+    background: url(../images/logo-dark.jpg);
+    background-size: 100% 100%;
+    margin-left: 60%;
     /* background-color: whitesmoke; */
-    text-align: end;
+}
+nav .logo_box .logo-light
+{
+    height: 80px;
+    width: 80px;
+    background: url(../images/logo-light.jpg);
+    background-size: 100% 100%;
 }
 nav .menu-list
 {
@@ -540,3 +556,4 @@ footer .container .row .icons
     margin-top: 2%;
 }
 /* ------------ footer style end ------------ */
+
