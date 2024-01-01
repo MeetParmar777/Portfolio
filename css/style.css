@@ -123,6 +123,7 @@ nav .menu-list ul a li:hover::before
 {
     width: 100%;
 }
+
 #home nav .fa-bars
 {
     color: white;
@@ -235,7 +236,11 @@ nav .menu-list ul a li:hover::before
 }
 #home .container .row .col2 img
 {
-    border-radius: 20px;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    /* -webkit-box-reflect: below 3px linear-gradient(transparent,transparent,rgba(0,0,0,0.5)); */
+    box-shadow: 10px 10px 5px rgba(33, 33, 33, 0.921), 20px 20px 5px rgba(33, 33, 33, 0.7), 30px 30px 5px rgba(33, 33, 33, 0.4), 40px 40px 5px rgba(33, 33, 33, 0.1);
 }
 
 /* ------------ hero section style end ------------ */
